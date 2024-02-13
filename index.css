@@ -1,0 +1,356 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 4px 100px;
+  background: rgba(30, 40, 89, 1);
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  overflow-y: hidden;
+  z-index: 7;
+}
+nav a {
+  color: aliceblue;
+  font-size: 18px;
+  text-decoration: none;
+  margin-left: 145px;
+  display: inline-block;
+  text-align: center;
+}
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 80px;
+}
+nav ul li {
+  list-style: none;
+}
+
+body {
+
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+
+section {
+ 
+  display: flex;
+}
+
+.three {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("./logo3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.tthr h5{
+  margin-top: 30px;
+  max-width: 60%;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Cinzel", serif;
+  font-size: 22px;
+    font-weight: normal;
+}
+.tthr button{
+  margin-top: 50px;
+  font-family: "Cinzel", serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgba(30, 40, 89, 1);
+  background-color: rgba(230, 176, 50, 1);
+  border: 2px solid rgba(230, 176, 50, 1);
+  padding: 10px 20px;
+  margin-top: 30px;
+  margin: 40px;
+}
+.tthr{
+  display: flex; 
+   justify-content: center;
+  align-items: center; 
+  flex-direction: column;
+  height: 100%;
+ 
+} 
+
+.thr-thr {
+  height: 70vh;
+  width: 100vw;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(29, 33, 51, 0.6);
+}
+
+.thr-thr h3 {
+  font-family: "Cinzel", serif;
+  font-size: 20px;
+  font-weight: normal;
+
+  max-width: 400PX;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 1);
+
+}
+.thr-thr h2 {
+  font-family: "Cinzel", serif;
+  font-size: 40px;
+  justify-content: center;
+
+  color: rgba(255, 255, 255, 1);
+ 
+}
+
+
+.abcd {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 30px4;
+}
+.abcd button {
+  font-family: "Cinzel", serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgba(30, 40, 89, 1);
+  background-color: rgba(230, 176, 50, 1);
+  border: 2px solid rgba(230, 176, 50, 1);
+  padding: 10px 20px;
+  margin-top: 30px;
+  margin: 40px;
+}
+
+h6 {
+  max-width: 1400px;
+}
+.four {
+
+  height: 133px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -10px;
+}
+.our-team{
+  grid-column: 1 / 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.our-team h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+/* .grp{
+  grid-column: 2 / 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grp h3 {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  max-width:800px;
+} */
+
+.img111 {
+  position: static;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  text-align: center;
+}
+
+.two {
+  display: flex;
+  justify-content: center;
+  margin-top: 55px;
+  
+}
+
+.our {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 75px;
+  margin-left: 155px;
+}
+.rag {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  place-items: start legacy;
+  column-gap: 25px;
+}
+h2 {
+  font-family: "Cinzel", serif;
+  font-size: 24px;
+  color: rgba(30, 40, 89, 1);
+}
+h3 {
+ 
+  font-family: "Cinzel", serif;
+  font-size: 20px;
+  font-style: inherit;
+  font-weight: normal;
+  max-width: 400px;
+  font-optical-sizing: auto;
+  color: rgb(63, 62, 62);
+}
+h6 {
+  font-family: "Cinzel", serif;
+  font-size: 20px;
+  font-style: inherit;
+  font-weight: normal;
+  max-width: 900px;
+  font-optical-sizing: auto;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+}
+.abc {
+  display: flex;
+  justify-content: center;
+ 
+  margin-bottom: 70px;
+  margin-top: 50px;
+}
+.abc button {
+  font-family: "Cinzel", serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgba(30, 40, 89, 1);
+  background-color: rgba(230, 176, 50, 1);
+  border: 2px solid rgba(230, 176, 50, 1);
+  padding: 10px 20px;
+
+}
+button {
+  color: rgba(230, 176, 50, 1);
+  background-color: aqua;
+}
+.one {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+.one-one-content,
+.one-two-content {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Special Elite", system-ui;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 2%;
+  width: 600px;
+  display: flex;
+  margin-top: 30px;
+  height: 100%;
+  max-width: 600px;
+  justify-content: baseline;
+  text-align: start;
+  align-items: center;
+  margin-left: 90px;
+}
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.one .one-one {
+  background-image: url("./logo2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.one .one-two {
+  background-image: url("./MV1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.one-one {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background-color: rgba(29, 33, 51, 0.2);
+}
+
+
+.one.slick-slider {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.one .slick-dots {
+  width: 100%;
+  bottom: 4%;
+}
+.one .silck-arrow.prev {
+  left: 0;
+}
+.one .silck-arrow.next {
+  right: 0;
+}
+.one .silck-arrow {
+  position: absolute;
+  top: 50%;
+  display: block;
+  z-index: 9;
+  transform: translate(0, -50%);
+  cursor: pointer;
+}
+.A {
+  margin-top: 100px;
+  margin-right: 0px;
+  margin-bottom: 0%;
+}
+.bg {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background-color: rgba(29, 33, 51, 0.5);
+}
+.movie {
+  max-width: 1400px;
+  margin-left: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
